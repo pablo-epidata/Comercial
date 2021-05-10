@@ -1,0 +1,7 @@
+echo "# Comercial" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main_test
+git remote add origin https://github.com/pablo-epidata/Comercial.git
+git push -u origin main_test
